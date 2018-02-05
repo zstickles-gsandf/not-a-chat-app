@@ -1,0 +1,17 @@
+input {
+  padding: 0.4em;
+  margin: 0.2em 1em;
+  border: 1px solid grey;
+}
+
+button {
+  border: none;
+  padding: 0.4em 1em;
+  margin: 0.2em 1em;
+  cursor: pointer;
+  color: #FFF;
+}
+
+#post {
+  background-color: forestGreen;
+}
