@@ -8,6 +8,10 @@ input {
   border: 1px solid grey;
 }
 
+input#message {
+  display: none;
+}
+
 button {
   border: none;
   padding: 0.4em 1em;
@@ -18,6 +22,11 @@ button {
 
 #post {
   background-color: forestGreen;
+  display: none;
+}
+
+#login {
+  background-color: tomato;
 }
 
 #chat {
