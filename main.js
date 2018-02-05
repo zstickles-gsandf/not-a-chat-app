@@ -9,7 +9,7 @@ const config = {
 };
 firebase.initializeApp(config);
 
-const db = firebase.database().ref();
+const db = firebase.database().ref('posts');
 const auth = firebase.auth();
 const authProvider = new firebase.auth.GoogleAuthProvider();
 
