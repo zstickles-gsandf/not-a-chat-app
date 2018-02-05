@@ -53,7 +53,7 @@ auth.onAuthStateChanged((data) => {
 		username = data.displayName;
 		$loginBtn.textContent = `Logged in as ${username}`;
 		$loginBtn.disabled = true;
-		$message.style.display = block;
-		$postBtn.style.display = block;
+		$message.style.display = 'block';
+		$postBtn.style.display = 'block';
 	}
 });
