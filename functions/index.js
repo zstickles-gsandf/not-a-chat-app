@@ -9,7 +9,7 @@ const wordMap = [
 function cleanUp(str) {
   return wordMap.reduce((acc, word) => {
     return acc.replace(word.bad, word.good);
-  }, str);
+  }, str.toLowerCase());
 }
 
 exports.sanitizePost = functions.database
