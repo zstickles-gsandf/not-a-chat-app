@@ -23,7 +23,6 @@ const $chat = document.getElementById('chat');
 
 // When a user clicks on the post button
 $postBtn.addEventListener('click', () => {
-	const username = $username.value;
 	const message = $message.value;
 	db.push({ username, message });
 	$message.value = '';
